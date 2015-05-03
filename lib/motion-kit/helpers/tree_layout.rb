@@ -325,7 +325,7 @@ module MotionKit
         return nil
       end
 
-      if from_view.is_a?(NSString)
+      if from_view.is_a?(String)
         from_view = self.get(from_view)
       end
 
@@ -361,7 +361,7 @@ module MotionKit
         return nil
       end
 
-      if from_view.is_a?(NSString)
+      if from_view.is_a?(String)
         from_view = self.get(from_view)
       end
 
@@ -406,7 +406,7 @@ module MotionKit
         return nil
       end
 
-      if from_view.is_a?(NSString)
+      if from_view.is_a?(String)
         from_view = self.get(from_view)
       end
 
